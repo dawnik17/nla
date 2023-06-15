@@ -1,0 +1,30 @@
+typo1:
+    degree: 1
+    touch_mode: "swap"
+    aug_mode: "keyboard"
+    percentage: 20
+    precompute: False
+    precompute_path: null
+typo2:
+    degree: 2
+    touch_mode: "random"
+    aug_mode: "random"
+    percentage: 20
+    precompute: False
+    precompute_path: null
+homophone:
+  beam_width: 3
+  percentage: 10
+  precompute: True
+  precompute_path: "/Volumes/DrowZz/company_work/nla/nla/precompute/homophone.pbz2"
+ngrams:
+  degree: 3
+  threshold: 2
+  percentage: 35
+  precompute: False
+  precompute_path: null
+word_boundary:
+  degree: 2
+  percentage: 15
+  precompute: False
+  precompute_path: null
